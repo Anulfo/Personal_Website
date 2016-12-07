@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .portimages {
-  width: 345px;
-  height: 300px;
+  width: 100%;
+  height: 200px;
 }
 body {
   overflow-x: hidden;
@@ -151,7 +151,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: #555555;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -557,9 +557,18 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
+.contactmsg {
+  color: white;
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/meet2.png');
   background-position: center;
   background-repeat: no-repeat;
 }

@@ -4,8 +4,8 @@
 // Global Components
 
 .portimages {
-    width: 345px;
-    height: 300px;
+    width: 100%;
+    height: 200px;
 }
 body {
     overflow-x: hidden;
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 // Custom Navigation Bar
 
 .navbar-custom {
-    background-color: @gray-darker;
+    background-color: @gray;
     border-color: transparent;
     .navbar-brand {
         color: @theme-primary;
@@ -538,9 +538,18 @@ aside.clients {
 
 // Contact Section
 
+.contactmsg{
+    color: white;
+    font-size: 16px;
+    .serif-font;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
 section#contact {
     background-color: @gray-darker;
-    background-image: url('../img/map-image.png');
+    background-image: url('../img/meet2.png');
     background-position: center;
     background-repeat: no-repeat;
     .section-heading {
